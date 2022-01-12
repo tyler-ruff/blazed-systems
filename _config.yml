@@ -349,6 +349,8 @@ plugins:
 # Used for twitter cards
 # twitter:
 #   username:            <username>
+twitter:
+  username:              BlazedLabs
 
 # Used for facebook open graph
 # facebook:
@@ -362,7 +364,10 @@ plugins:
 #   links:
 #     - https://twitter.com/<username>
 #     - https://github.com/<username>
-
+social:
+  links:
+    - https://twitter.com/BlazedLabs
+    - https://github.com/blazed-space
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
