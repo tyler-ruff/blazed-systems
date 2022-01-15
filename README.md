@@ -1,4 +1,8 @@
-# Hydejack Starter Kit
+# Blazed Systems
+
+![Screenshot](screenshot.png)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f9e5978-515e-4760-8a1e-d22d98d903cc/deploy-status)](https://app.netlify.com/sites/blazed-systems/deploys)
 
 A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
@@ -10,11 +14,3 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.
 4. Run `bundle exec jekyll serve`
 5. Open <http://localhost:4000/hydejack-starter-kit/>
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
-
-[^1]: Requires Bundler. Install with `gem install bundler`.
-
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
