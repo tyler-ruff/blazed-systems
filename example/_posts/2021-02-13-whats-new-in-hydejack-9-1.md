@@ -12,35 +12,28 @@ description: >
 invert_sidebar: true
 ---
 
-# What's New in Hydejack 9.1?
+# What is Blazed Systems?
 
-What's New in Hydejack 9.1?
+We are a Systems Development & Engineering Firm
 
 * toc
 {:toc}
 
 
-## Stripe-ified Design
-Most elements now have rounded borders, making the design look more modern (dare I say "Stripe-ified") than ever before. 
-
-The goal of Hydejack was always to provide a theme that looks "designed" combined the amenities of a typical Jekyll theme for coders.
-This is an important step in maintaining this goal.
-
-At the same time, I'm introducing nerdy elements like [breadcrumbs](#serp-breadcrumbs), that are almost ornamental in nature.
-You wouldn't find these on other Stripe-like designs, but I think they are appealing to developer types like myself. 
-Like most additions to Hydejack, they can be disabled via configuration. 
+## Networking as a Service
+We offer GUI based DNS services, cloud based IP management and DHCP services, emailing, and other office-based cloud solutions. We also offer cloud-based WAN and LAN solutions.
 
 
-## Inverted Sidebars
-The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
+## Blazed Fire Front End Solution
+Blazed Fire is a front end framework made with javascript, css, and HTML. Fire uses Tailwind as a CSS library. Blazed Fire is made to connect with ICE, or any other backend or API.
 
 ```yml
 invert_sidebar: true
 ```
 
 
-## Code Block Headers
-Code blocks can now have headers:
+## Blazed ICE Back End Solution
+Blazed ICE is a back end web solution made with PHP; but can also work with Python, Java, GO, C#, and Ruby. ICE works as a standalone 
 
 ~~~js
 // file: 'hello-world.js'
