@@ -172,7 +172,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-  disqus:                blazed-systems
+disqus:                blazed-systems
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
