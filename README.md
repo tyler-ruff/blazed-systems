@@ -1,16 +1,27 @@
-# Blazed Systems
+# fire-angular
+The Fire bootstrap &amp; framework library for AngularJS.
 
-![Screenshot](screenshot.png)
+## What's Included
+This package uses:
+- [AngularJS](https://angular.io/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4f9e5978-515e-4760-8a1e-d22d98d903cc/deploy-status)](https://app.netlify.com/sites/blazed-systems/deploys)
+## Installing
+To install, run the following command at the root of the directory:
+```sh
+npm install
+```
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+## Live Development Server
+To run a live dev server, first ensure you have NPM installed. Then, if you have not already, install the Angular CLI,
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+```sh
+npm install -g @angular/cli
+```
+
+Once installed, you can run a simple development server with the following command:
+
+```sh
+ng serve
+```
 

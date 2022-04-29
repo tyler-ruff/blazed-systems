@@ -1,7 +1,8 @@
 [build]
- command = "jekyll build"
- publish = "_site"
+  command = "ng build"
+  publish = "dist/fire"
 
-[build.environment]
-  JEKYLL_ENV = "production"
-  RUBY_VERSION = "2.7.1"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

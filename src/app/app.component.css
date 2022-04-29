@@ -1,0 +1,10 @@
+.blz-app{
+    position:relative;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+main{
+    padding:10px;
+}
