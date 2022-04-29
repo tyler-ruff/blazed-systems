@@ -18,6 +18,11 @@ import { ControlPanelComponent } from './control-panel/control-panel.component';
 import { HomeComponent } from './home/home.component';
 import { SolutionComponent } from './solution/solution.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { SupportComponent } from './support/support.component';
+import { DocsComponent } from './docs/docs.component';
+import { FaqComponent } from './faq/faq.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { PricingComponent } from './pricing/pricing.component';
     ControlPanelComponent,
     HomeComponent,
     SolutionComponent,
-    PricingComponent
+    PricingComponent,
+    SupportComponent,
+    DocsComponent,
+    FaqComponent,
+    DashboardComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,4 @@
+input[type=text], input[type=email], textarea {
+    border: 1px solid #000;
+    margin-top: 4px;
+}
