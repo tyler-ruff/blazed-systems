@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+   <msapplication>
+     <tile>
+        <square70x70logo src="https://blazed.sirv.com/logo/BLZ-blue.png?w=70&70"/>
+        <square150x150logo src="https://blazed.sirv.com/logo/Beaker-Dark.png?w=150&h=150"/>
+        <wide310x150logo src="https://blazed.sirv.com/logo/Wallpaper-Beaker.png?w=310&h=150"/>
+        <square310x310logo src="https://blazed.sirv.com/logo/Beaker-Dark.png?w=310&h=310"/>
+     </tile>
+   </msapplication>
+</browserconfig>
