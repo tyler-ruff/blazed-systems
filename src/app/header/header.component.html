@@ -5,17 +5,22 @@
             <img src="https://blazed.sirv.com/logo/Beaker-Dark.png?w=50&h=50">
         </a>
       </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a routerLink="/home" routerLinkActive="is-active" class="mr-5 hover:text-gray-900">
-            Home
-        </a>
-        <a routerLink="/solution" routerLinkActive="is-active" class="mr-5 hover:text-gray-900">
-            Solution
-        </a>
-        <a routerLink="/pricing" routerLinkActive="is-active" class="mr-5 hover:text-gray-900">
-            Pricing
-        </a>
+      <nav class="md:ml-auto flex flex-wrap text-base header-nav">
+        <div class="header-nav-links">
+          <app-nav class="flex flex-wrap text-base justify-center sm:items-center"></app-nav>
+        </div>
+        <div class="header-nav-burger">
+          <button class="relative mx-auto bg-gray-200 mb-5 px-3 py-3" (click)="burgerVisible=!burgerVisible">
+            <svg width="50" height="50" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.5 13.5A.5.5 0 015 13h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 9h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 5h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+            </svg>
+          </button>
+          <ng-container *ngIf="burgerVisible">
+            <div class="header-nav-links-mobile bg-gray-200">
+              <app-nav></app-nav>
+            </div>
+          </ng-container>
+        </div>
       </nav>
-      <app-login></app-login>
     </div>
 </header>

@@ -1,3 +1,27 @@
-.is-active{
-    text-decoration: underline;
+.header-nav-burger{
+    display:none;
+}
+
+.header-nav-links{
+    display:inline-block;
+}
+
+@media only screen and (max-width: 768px){
+    .header-nav{
+        display:block;
+        width:100%;
+    }
+    .header-nav-burger{
+        display:block;
+    }
+    .header-nav-burger button{
+        display:block;
+    }
+    .header-nav-links{
+        display:none;
+    }
+    .header-nav-links-mobile{
+        margin-top:-20px;
+        padding-top:10px;
+    }
 }

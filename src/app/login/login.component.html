@@ -3,9 +3,7 @@
         <span class="menu-seperator">
             |
         </span>
-        <a routerLink="/control-panel" routerLinkActive="is-active" class="px-3 py-3 text-gray-400 hover:text-gray-600 cursor-pointer">
-           {{ user.name }}
-        </a>
+        <a routerLink="/control-panel" routerLinkActive="is-active" class="px-3 py-3 text-gray-400 hover:text-gray-600 cursor-pointer">Dashboard</a>
     </span>
     <button (click)="auth.logout({ returnTo: document.location.origin })" class="inline-flex items-center bg-red-500 border-0 py-1 px-3 focus:outline-none hover:bg-red-400 rounded text-white mt-4 md:mt-0">
         Logout

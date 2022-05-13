@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  burgerVisible: boolean = false;
+
   ngOnInit(): void {
   }
 

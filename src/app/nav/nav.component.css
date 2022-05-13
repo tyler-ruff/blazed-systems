@@ -8,13 +8,6 @@ a{
 }
 
 @media only screen and (max-width: 766px){
-    .menu-seperator{
-        display:none;
-    }
-    button{
-        display:block;
-        width:100%;
-    }
     a{
         display:block;
         text-align: center;

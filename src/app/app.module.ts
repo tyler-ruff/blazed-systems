@@ -22,7 +22,7 @@ import { SupportComponent } from './support/support.component';
 import { DocsComponent } from './docs/docs.component';
 import { FaqComponent } from './faq/faq.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AccountComponent } from './account/account.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +41,7 @@ import { AccountComponent } from './account/account.component';
     DocsComponent,
     FaqComponent,
     DashboardComponent,
-    AccountComponent
+    NavComponent
   ],
   imports: [
     BrowserModule,
