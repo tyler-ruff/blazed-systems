@@ -1,3 +1,13 @@
-.is-active{
-    background: #ccc;
+
+.side-menu-mobile{
+    display:none;
+}
+
+@media only screen and (max-width: 768px){
+    .side-menu{
+        display:none;
+    }
+    .side-menu-mobile{
+        display:block;
+    }
 }

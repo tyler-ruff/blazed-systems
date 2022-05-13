@@ -10,6 +10,8 @@ export class ControlPanelComponent implements OnInit {
 
   constructor(public auth: AuthService) { }
 
+  menuVisible: boolean = false;
+
   ngOnInit(): void {
   }
 

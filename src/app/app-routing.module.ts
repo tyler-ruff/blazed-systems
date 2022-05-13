@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ControlPanelComponent } from './control-panel/control-panel.component';
 import { AccountComponent } from './account/account.component';
 import { ServicesComponent } from './services/services.component';
-import { BillingComponent } from './billing/billing.component';
+import { SettingsComponent } from './settings/settings.component';
 import { HomeComponent } from './home/home.component';
 import { SolutionComponent } from './solution/solution.component';
 import { PricingComponent } from './pricing/pricing.component';
@@ -27,7 +27,7 @@ const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent },
       { path: 'account', component: AccountComponent },
       { path: 'services', component: ServicesComponent },
-      { path: 'billing', component: BillingComponent },
+      { path: 'settings', component: SettingsComponent },
       { path: '**',   redirectTo: '/control-panel/dashboard', pathMatch: 'full' }
     ]
   },

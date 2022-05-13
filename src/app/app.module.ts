@@ -9,9 +9,9 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { UnknownComponent } from './unknown/unknown.component';
 import { LoadingComponent } from './loading/loading.component';
+import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
 import { LazyLoadDirective } from './lazyload.directive';
 import { LoginComponent } from './login/login.component';
 import { ControlPanelComponent } from './control-panel/control-panel.component';
@@ -22,7 +22,7 @@ import { SupportComponent } from './support/support.component';
 import { DocsComponent } from './docs/docs.component';
 import { FaqComponent } from './faq/faq.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { NavComponent } from './nav/nav.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +41,8 @@ import { NavComponent } from './nav/nav.component';
     DocsComponent,
     FaqComponent,
     DashboardComponent,
-    NavComponent
+    NavComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
