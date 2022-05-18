@@ -1,4 +1,4 @@
-.header-nav-burger{
+.header-nav-burger, .header-logo-mobile{
     display:none;
 }
 
@@ -7,15 +7,28 @@
 }
 
 @media only screen and (max-width: 768px){
+    nav{
+        margin-top: -25px;
+    }
+    .header-logo{
+        display:none;
+    }
+    .header-logo-mobile{
+        display:grid;
+    }
+    .header-logo-mobile img{
+        margin-top:15px;
+    }
     .header-nav{
         display:block;
         width:100%;
     }
     .header-nav-burger{
-        display:block;
+        display:inline-block;
+        text-align: right;
     }
     .header-nav-burger button{
-        display:block;
+        display:inline-block;
     }
     .header-nav-links{
         display:none;
