@@ -1,1 +1,117 @@
-<p>settings works!</p>
+<div class="p-8 rounded border border-gray-200 account-wrapper">
+    <h1 class="font-medium text-3xl">
+        System Settings
+    </h1>
+    <h2 class="text-gray-600 text-xl mt-6">
+        Global Settings
+    </h2>
+    <form>
+        <div class="mt-8">
+            <div class="mb-5 mt-5">
+                <h3 class="text-md text-gray-700 block mb-5 font-medium">
+                    Setting item 1
+                </h3>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="relative">
+                      <input class="hidden group peer" type="radio" name="shippingOption" value="standard_alt" id="standard_alt" checked />
+                  
+                      <label class="block p-4 text-sm font-medium transition-colors border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500" for="standard_alt">
+                        <span> Standard </span>
+                  
+                        <span class="block mt-1 text-xs text-gray-500">
+                          Free
+                        </span>
+                      </label>
+                  
+                      <svg class="absolute w-5 h-5 text-blue-600 opacity-0 top-4 right-4 peer-checked:opacity-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
+                  
+                    <div class="relative">
+                      <input class="hidden group peer" type="radio" name="shippingOption" value="next_day_alt" id="next_day_alt" />
+                  
+                      <label class="block p-4 text-sm font-medium transition-colors border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500" for="next_day_alt">
+                        <span> Next Day </span>
+                  
+                        <span class="block mt-1 text-xs text-gray-500">
+                          $ 5.99
+                        </span>
+                      </label>
+                  
+                      <svg class="absolute w-5 h-5 text-blue-600 opacity-0 top-4 right-4 peer-checked:opacity-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
+                  </div>
+            </div>
+
+            <hr />
+
+            <div class="mb-5 mt-5">
+                <h3 class="text-md text-gray-700 block mb-5 font-medium">
+                    Setting item 2
+                </h3>
+                <div class="space-y-4">
+                    <div>
+                        <input class="hidden peer" type="radio" name="size" value="big" id="big" checked />
+                    
+                        <label class="flex items-center justify-between p-4 text-sm font-medium transition-colors border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500" for="big">
+                        <span> Big </span>
+                    
+                        <span> Large </span>
+                        </label>
+                    </div>
+                      
+                    <div>
+                        <input class="hidden peer" type="radio" name="size" value="small" id="small" />
+                    
+                        <label class="flex items-center justify-between p-4 text-sm font-medium transition-colors border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500" for="small">
+                        <span> Small </span>
+                    
+                        <span> Tiny </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="mb-5 mt-5">
+                <h3 class="text-md text-gray-700 block mb-5 font-medium">
+                    Toggle Item 1
+                </h3>
+                <label for="Toggle1" class="inline-flex items-center space-x-4 cursor-pointer text-gray-800">
+                    <span>Left</span>
+                    <span class="relative">
+                        <input id="Toggle1" type="checkbox" class="hidden peer">
+                        <div class="w-10 h-6 rounded-full shadow-inner bg-gray-600 peer-checked:bg-blue-600"></div>
+                        <div class="absolute inset-y-0 left-0 w-4 h-4 m-1 rounded-full shadow peer-checked:right-0 peer-checked:left-auto bg-gray-100"></div>
+                    </span>
+                    <span>Right</span>
+                </label>
+            </div>
+
+            <hr />
+
+            <div class="mb-5 mt-5">
+                <h3 class="text-md text-gray-700 block mb-5 font-medium">
+                    Toggle On/Off
+                </h3>
+                <label for="Toggle4" class="inline-flex items-center p-1 cursor-pointer bg-gray-700 text-gray-100">
+                    <input id="Toggle4" type="checkbox" class="hidden peer">
+                    <span class="px-4 py-2 bg-gray-400 peer-checked:bg-gray-700">OFF</span>
+                    <span class="px-4 py-2 bg-gray-700 peer-checked:bg-green-600">ON</span>
+                </label>
+            </div>
+
+        </div>
+    
+        
+        <div class="space-x-4 mt-8">
+            <button type="submit" class="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50">
+                Save
+            </button>
+        </div>
+    </form>
+</div>

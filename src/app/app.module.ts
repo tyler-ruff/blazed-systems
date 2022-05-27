@@ -23,6 +23,10 @@ import { DocsComponent } from './docs/docs.component';
 import { FaqComponent } from './faq/faq.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MenuComponent } from './menu/menu.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +38,7 @@ import { MenuComponent } from './menu/menu.component';
     FooterComponent,
     LoginComponent,
     ControlPanelComponent,
+    AccountComponent,
     HomeComponent,
     SolutionComponent,
     PricingComponent,
@@ -56,7 +61,10 @@ import { MenuComponent } from './menu/menu.component';
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore())
   ],
   providers: [],
   bootstrap: [AppComponent]

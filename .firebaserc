@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "blz-one-9e383": {
+      "hosting": {
+        "fire": [
+          "blz-one-9e383"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "blz-one-9e383"
+  }
+}

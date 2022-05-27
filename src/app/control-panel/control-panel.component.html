@@ -1,78 +1,77 @@
-<div class="grid md:grid-cols-[270px_minmax(900px,_1fr)_100px]">
-<ng-container *ngIf="auth.user$ | async as user">
-    <div class="md:w-64 sm:w-full md:h-screen py-2 px-4 bg-white border">
-        <h2 class="text-2xl font-semibold text-gray-800 text-center pt-5 border-b pb-3">
-            Control Panel
-        </h2>
-
-        <div class="mt-6 border-b">
-            <div class="flex items-center px-4 mt-6 mb-2">
-                <img title="Profile Picture" class="object-cover mx-2 rounded-full h-9 w-9" src="{{ user.picture }}" alt="Profile Picture"/>
-                <ng-container *ngIf="user.name === user.email; then noName; else displayName">
-                    <!-- Profile Header -->
-                </ng-container>
-                <ng-template #noName>
-                    <h4 title="Nickname" class="mx-2 font-medium text-gray-800">
-                        {{ user.nickname }}
-                    </h4>
-                </ng-template>
-                <ng-template #displayName>
-                    <h4 title="Name" class="mx-2 font-medium text-gray-800">
-                        {{ user.name }}
-                    </h4>
-                </ng-template>
-            </div>
-            <div class="flex items-center px-4 my-5">
-                <p title="Email">
-                    {{ user.email }}
-                </p>
-            </div>
-        </div>
-        
-        <div class="flex flex-col justify-between flex-1">
-            <nav>
-                <div class="side-menu">
-                    <app-menu></app-menu>
+<div class="md:grid md:grid-cols-[270px_minmax(500px,_2fr)_0px] cp-body">
+    <ng-container *ngIf="auth.user$ | async as user">
+        <div class="md:w-64 sm:w-full md:h-screen py-2 px-4 bg-white border">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center pt-5 border-b pb-3">
+                Control Panel
+            </h2>
+            <div class="mt-6 border-b">
+                <div class="flex items-center px-4 mt-6 mb-2">
+                    <img title="Profile Picture" class="object-cover mx-2 rounded-full h-9 w-9" src="{{ user.picture }}" alt="Profile Picture"/>
+                    <ng-container *ngIf="user.name === user.email; then noName; else displayName">
+                        <!-- Profile Header -->
+                    </ng-container>
+                    <ng-template #noName>
+                        <h4 title="Nickname" class="mx-2 font-medium text-gray-800">
+                            {{ user.nickname }}
+                        </h4>
+                    </ng-template>
+                    <ng-template #displayName>
+                        <h4 title="Name" class="mx-2 font-medium text-gray-800">
+                            {{ user.name }}
+                        </h4>
+                    </ng-template>
                 </div>
-                <div class="side-menu-mobile">
-                    <ng-container *ngIf="menuVisible">
+                <div class="flex items-center px-4 my-5">
+                    <p title="Email">
+                        {{ user.email }}
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex flex-col justify-between flex-1">
+                <nav>
+                    <div class="side-menu">
                         <app-menu></app-menu>
-                    </ng-container>
+                    </div>
+                    <div class="side-menu-mobile">
+                        <ng-container *ngIf="menuVisible">
+                            <app-menu></app-menu>
+                        </ng-container>
 
-                    <ng-container *ngIf="menuVisible">
+                        <ng-container *ngIf="menuVisible">
 
-                        <a (click)="menuVisible = false" class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md bg-gray-100 hover:bg-gray-300 hover:text-gray-800 cursor-pointer">
-                            <svg class="w-5 h-5" width="30" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M9.776 7.553a.5.5 0 01.448 0l6 3a.5.5 0 11-.448.894L10 8.56l-5.776 2.888a.5.5 0 11-.448-.894l6-3z" clip-rule="evenodd"/>
-                            </svg>
+                            <a (click)="menuVisible = false" class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md bg-gray-100 hover:bg-gray-300 hover:text-gray-800 cursor-pointer">
+                                <svg class="w-5 h-5" width="30" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M9.776 7.553a.5.5 0 01.448 0l6 3a.5.5 0 11-.448.894L10 8.56l-5.776 2.888a.5.5 0 11-.448-.894l6-3z" clip-rule="evenodd"/>
+                                </svg>
 
-                            <span class="mx-4 font-medium">
-                                Show Less
-                            </span>
-                        </a>
+                                <span class="mx-4 font-medium">
+                                    Show Less
+                                </span>
+                            </a>
 
-                    </ng-container>
-                    <ng-container *ngIf="!menuVisible">
+                        </ng-container>
+                        <ng-container *ngIf="!menuVisible">
 
-                        <a (click)="menuVisible = true" class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md border hover:bg-gray-200 hover:text-gray-800 cursor-pointer">
-                            <svg class="w-5 h-5" width="30" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M3.553 8.776a.5.5 0 01.67-.223L10 11.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z" clip-rule="evenodd"/>
-                            </svg>
+                            <a (click)="menuVisible = true" class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md border hover:bg-gray-200 hover:text-gray-800 cursor-pointer">
+                                <svg class="w-5 h-5" width="30" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M3.553 8.776a.5.5 0 01.67-.223L10 11.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z" clip-rule="evenodd"/>
+                                </svg>
 
-                            <span class="mx-4 font-medium">
-                                Show More
-                            </span>
-                        </a>
+                                <span class="mx-4 font-medium">
+                                    Show More
+                                </span>
+                            </a>
 
-                    </ng-container>
-                </div>
+                        </ng-container>
+                    </div>
 
-            </nav>
+                </nav>
 
+            </div>
         </div>
-    </div>
-    <div class="md:w-2/3 sm:w-full mt-5 mb-5">
+    </ng-container>
+    <div class="md:w-full md:mr-10 sm:w-full lg:w-full mb-5">
         <router-outlet></router-outlet>
     </div>
-</ng-container>
 </div>
