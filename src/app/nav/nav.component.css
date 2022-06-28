@@ -1,29 +1,13 @@
 .is-active{
-    text-decoration: underline;
+    text-decoration:underline;
 }
-
-a{
-    padding-left:10px;
-    padding-right:10px;
-    text-shadow: none;
-}
-
-/*
-    @ Source: https://github.com/tailwindlabs/tailwindcss/issues/162
-    # Author: @pedroborges
-*/
-a:hover {
-    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
-}
-
-
-@media only screen and (max-width: 766px){
-    a{
-        display:block;
-        text-align: center;
+@media only screen and (max-width: 1023px){
+    ul{
+        text-align:center;
+        margin-top:5px;
+    }
+    ul li a{
         padding-top:10px;
         padding-bottom:10px;
-        padding-left:20px;
-        padding-right:20px;
     }
 }

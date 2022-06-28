@@ -1,36 +1,58 @@
-# Blazed Systems
+# fire-angular
+![Repo Stars](https://img.shields.io/github/stars/blazed-space/fire-angular?style=for-the-badge "Repo Stars")
 
-## Overview
-Cloud service platform for the Blazed One Solution.
+![Repo Downloads](https://img.shields.io/github/downloads/blazed-space/fire-angular/total?style=for-the-badge "Repo Downloads")
 
-## Learn More
-The Blazed Systems platform creates an interface (or bridge) between various partner platforms, in order to provide fully developed
-solutions to business owners. In addition, we also provide support services, so their deployments will work as intended. For those tired of the countless hours spent hunting, interviewing, and training potential candidates for development position, the Blazed Systems solution has come to the rescue!
+The Fire bootstrap &amp; framework library for AngularJS.
 
-## For Developers
-Do not worry! While all of our services are designed for user experience and ease-of-use, we have also put just as much effort into our API's and documentation, to help make the developer's experience positive, as well. And of course, all of our code is open source. Interested in learning more? Head on over to our [Documentation](https://www.blazed.systems/docs).
+- [View Demo](https://fire-angular.netlify.app/)
+- [Documentation](https://github.com/blazed-space/fire-angular/wiki)
 
-## Made With
-- Love By Blazed Labs LLC, and;
-- [Fire Angular](https://github.com/blazed-space/fire-angular)
+## What's Included
+This package includes:
 - [AngularJS](https://angular.io/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Auth0](https://auth0.com/)
-- [Firebase](https://firebase.google.com/)
-- [Sanity](https://sanity.io/)
-- [StackBlitz](https://stackblitz.com/)
+- [HTML Monolith Boilerplate](https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/HTML-Snippets/index.html)
+- Blazed [custom-scrollbar](https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/CSS-Snippets/custom-scrollbar.css)
+- [blink-stop](https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/CSS-Snippets/blink-stop.css)
+- Netlify.toml (for easy [Netlify](https://netlify.com/) deploy)
+- Mobile Burger Menu
+- 404 Page Not Found Action (Uknown Module)
 
-# Partners
-- [Stripe](https://stripe.com/)
-- [PlanetScale](https://planetscale.com/)
-- [Google Cloud](https://cloud.google.com/)
-- [Microsoft Azure](http://azure.microsoft.com/)
-- [Render](https://render.com)
-- [Netlify](https://netlify.com/)
-- [Vercel](https://vercel.com/)
-- [CloudFlare](https://www.cloudflare.com/)
+## Installing
+To install, run the following command at the root of the directory:
+```sh
+npm install
+```
 
+## Live Development Server
+To run a live dev server, first ensure you have NPM installed. Then, if you have not already, install the Angular CLI,
+
+```sh
+npm install -g @angular/cli
+```
+
+Once installed, you can run a simple development server with the following command:
+
+```sh
+ng serve
+```
+
+## Deploying
+To deploy to [Netlify](https://netlify.com/), simply create a new site using this repository as a template.
+Or, you may use the following button to deploy with one click:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg "Deploy to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/blazed-space/fire-angular)
+
+# Credits
+![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire-angular?style=for-the-badge "Last Commit")
 ## Development Team
-- [Tyler Ruff](https://github.com/tyler-ruff)
-- [Matthew Ruff](https://github.com/matt-ruff)
-- Star Dom
+* Maintained by: [The Blazed Development Group](https://www.facebook.com/groups/blzdev)
+* Published by: [Blazed Publishing](https://blazed.xyz/)
+- Lead Developer, Project Management: [Tyler Ruff](https://github.com/tyler-ruff)
+- UX Testing, Project Advising: Star Dom
+## Special Thanks
+- [Google](https://google.com/) and [Angular](https://angular.io/)
+- [Netlify](https://netlify.com/)
+- [HTML Head](https://htmlhead.dev/)
+- [TailwindCSS](https://tailwindcss.com/)

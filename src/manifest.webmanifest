@@ -1,9 +1,11 @@
 {
   "name": "fire",
   "short_name": "fire",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
   "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
   "icons": [
     {
       "src": "https://blazed.sirv.com/logo/Beaker-Dark.png?w=72&h=72",
@@ -55,3 +57,4 @@
     }
   ]
 }
+

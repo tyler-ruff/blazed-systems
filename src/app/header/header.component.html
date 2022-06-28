@@ -1,40 +1,42 @@
-<header class="text-gray-600 body-font pt-10 lg:pt-0">
-    <div class="container mx-auto flex flex-wrap p-5 pb-0 flex-col md:flex-row items-center">
-      <div class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 header-logo">
-        <a class="hover:opacity-80" routerLink="/home">
-            <img title="Blazed Systems" src="https://blazed.sirv.com/logo/Beaker-Dark.png?w=55&h=55">
-        </a>
-      </div>
-      <nav class="md:ml-auto flex flex-wrap text-base header-nav">
-        <div class="header-nav-links">
-          <app-nav class="flex flex-wrap text-base justify-center sm:items-center"></app-nav>
+                               
+
+<header>
+    <nav class="fixed w-full bg-gray-100 border-b">
+        <div class="container m-auto px-6 md:px-12 lg:px-6">
+            <div class="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0">
+                <div class="w-full flex justify-between lg:w-auto">
+
+                    <a href="/" title="Blazed Systems" aria-label="logo">
+                        <img src="https://blazed.sirv.com/logo/Beaker-Dark.png?w=45&h=45" class="hover:opacity-75" width="45" height="45">
+                    </a>
+
+                    <button (click)="burgerVisible = !burgerVisible" aria-label="humburger" id="hamburger" class="relative w-10 h-10 -mr-2 lg:hidden">
+                        <ng-container *ngIf="burgerVisible">
+                            <svg width="45" height="45" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                            </svg>
+                        </ng-container>
+                        <ng-container *ngIf="!burgerVisible">
+                            <svg width="45" height="45" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4.5 13.5A.5.5 0 015 13h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 9h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 5h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+                            </svg>
+                        </ng-container>
+                    </button>
+                </div>
+
+                <div hidden class="w-full bg-white md:space-y-0 md:p-0 md:flex-nowrap md:bg-transparent lg:w-auto lg:flex">
+                    <div class="block w-full lg:items-center lg:flex">
+                        
+                        <app-nav></app-nav>
+
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
-      <nav class="header-logo-mobile grid grid-cols-2 w-full">
-        <div class="w-half">
-          <a routerLink="/home">
-              <img title="Blazed Systems" src="https://blazed.sirv.com/logo/Beaker-Dark.png?w=45&h=45">
-          </a>
-        </div>
-        <div class="header-nav-burger place-content-end">
-          <button class="bg-gray-200 mb-5 px-3 py-3" (click)="burgerVisible=!burgerVisible">
+        <div class="nav-mobile">
             <ng-container *ngIf="burgerVisible">
-              <svg width="50" height="50" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
-                <path fill-rule="evenodd" d="M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"/>
-              </svg>
+                <app-nav></app-nav>
             </ng-container>
-            <ng-container *ngIf="!burgerVisible">
-              <svg width="50" height="50" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.5 13.5A.5.5 0 015 13h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 9h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 5h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
-              </svg>
-            </ng-container>
-          </button>
         </div>
-      </nav>
-    </div>
-    <ng-container *ngIf="burgerVisible">
-      <div class="header-nav-links-mobile bg-gray-200">
-        <app-nav></app-nav>
-      </div>
-    </ng-container>
+    </nav>
 </header>
