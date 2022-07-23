@@ -47,7 +47,7 @@
 				</p>
 			</div>
 		</div>
-		<form method="post" action="https://formspree.io/f/myyoalwj" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+		<form method="post" action="https://api.staticforms.xyz/submit" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 			<label class="block">
 				<span>Full name</span>
 				<input type="text" name="name" required placeholder="John Smith" class="bg-white mt-2 block w-full p-3 border rounded-md shadow-sm bg-gray-100">
@@ -60,6 +60,13 @@
 				<span>Message</span>
 				<textarea rows="3" name="message" required class="bg-white  mt-2 block w-full p-3 border rounded-md bg-gray-100"></textarea>
 			</label>
+            <div>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="ae7d37b2-fcad-42f6-a26f-d9d805abfb04">
+                <input type="hidden" name="subject" value="New Contact Message from Blazed Systems" />
+                <input type="hidden" name="replyTo" value="@">
+                <input type="hidden" name="redirectTo" value="https://blazed.systems/success">
+            </div>
 			<button type="submit" class="self-center px-8 py-3 text-lg rounded focus:ring focus:ring-opacity-75 bg-blue-600 text-gray-50 focus:ring-blue-600 hover:bg-blue-700">Submit</button>
 		</form>
 	</div>

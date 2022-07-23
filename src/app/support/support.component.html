@@ -9,7 +9,7 @@
             </div>
 		</div>
 	</div>
-	<form method="post" action="https://formspree.io/f/xzboqygv" class="space-y-6 ng-untouched ng-pristine ng-valid pt-10">
+	<form method="post" action="https://api.staticforms.xyz/submit" class="space-y-6 ng-untouched ng-pristine ng-valid pt-10">
 		<div>
 			<label for="name" class="text-sm">Full name</label>
 			<input id="name" required type="text" name="name" placeholder="" class="bg-white border mt-2 w-full p-3 rounded bg-gray-100">
@@ -21,6 +21,13 @@
 		<div>
 			<label for="message" class="text-sm">Message</label>
 			<textarea id="message" required rows="3" name="message" class="bg-white border mt-2 w-full p-3 rounded bg-gray-100"></textarea>
+		</div>
+		<div>
+			<input type="text" name="honeypot" style="display:none">
+			<input type="hidden" name="accessKey" value="ae7d37b2-fcad-42f6-a26f-d9d805abfb04">
+			<input type="hidden" name="subject" value="New Support Ticket from Blazed Systems" />
+			<input type="hidden" name="replyTo" value="@">
+			<input type="hidden" name="redirectTo" value="https://blazed.systems/success">
 		</div>
 		<button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-blue-600 text-gray-50">Send Message</button>
 	</form>

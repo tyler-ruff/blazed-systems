@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "fire"
+  "defaultProject": "fire",
+  "cli": {
+    "analytics": false
+  }
 }
