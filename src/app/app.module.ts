@@ -5,21 +5,46 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { NavComponent } from './nav/nav.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { LazyLoadDirective } from './lazyload.directive';
-import { AboutComponent } from './about/about.component';
-import { SolutionsComponent } from './solutions/solutions.component';
-import { ContactComponent } from './contact/contact.component';
-import { SupportComponent } from './support/support.component';
-import { SuccessComponent } from './success/success.component';
-import { HomeComponent } from './home/home.component';
+
+// Services
+import { AppService } from './shared/app.service';
+
+// Pages
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { SolutionsComponent } from './pages/solutions/solutions.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { SupportComponent } from './pages/support/support.component';
+import { SuccessComponent } from './pages/success/success.component';
+import { UnknownComponent } from './pages/unknown/unknown.component';
+
+// Components
+import { LayoutComponent } from './components/layout/layout.component';
+import { NavComponent } from './components/nav/nav.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+// Widgets
+import { CtaComponent } from './widgets/cta/cta.component';
+import { SolutionCardComponent } from './widgets/solution-card/solution-card.component';
+import { AboutUsComponent } from './widgets/about-us/about-us.component';
+import { SolutionListComponent } from './widgets/solution-list/solution-list.component';
+
+// Utilities
+import { LazyLoadDirective } from './utils/lazyload.directive';
+import { RelativeTimePipe } from './utils/relative-time.pipe';
+import { PhoneFormatPipe } from './utils/format-phone.pipe';
+import { IntroComponent } from './widgets/intro/intro.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LazyLoadDirective,
+    RelativeTimePipe,
+    PhoneFormatPipe,
+    LayoutComponent,
     HeaderComponent,
     FooterComponent,
     NavComponent,
@@ -28,7 +53,13 @@ import { HomeComponent } from './home/home.component';
     SolutionsComponent,
     ContactComponent,
     SupportComponent,
-    SuccessComponent
+    SuccessComponent,
+    UnknownComponent,
+    CtaComponent,
+    SolutionCardComponent,
+    AboutUsComponent,
+    SolutionListComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +71,9 @@ import { HomeComponent } from './home/home.component';
       registrationStrategy: 'registerWhenStable:30000'
     })
   ],
-  providers: [],
+  providers: [
+    AppService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
