@@ -30,7 +30,7 @@ export const app = {
             url: "https://www.facebook.com/blazedlabs"
         },
         linkedin: {
-            url: "https://www.instagram.com/blazed_labs/"
+            url: "https://www.linkedin.com/company/blazed-labs/"
         },
         instagram: {
             url: "https://www.instagram.com/blazed_labs/"
