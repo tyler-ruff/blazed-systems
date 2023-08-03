@@ -1,8 +1,0 @@
-[build]
-  command = "ng build"
-  publish = "dist/fire"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200

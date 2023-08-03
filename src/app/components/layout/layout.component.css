@@ -1,9 +1,0 @@
-main{
-    padding:0px;
-}
-/* For Galaxy Fold and XS screens (<280px viewport width) */
-@media only screen and (max-width: 280px){
-    main{
-        padding:3px;
-    }
-}
