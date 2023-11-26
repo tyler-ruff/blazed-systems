@@ -23,25 +23,7 @@
                 </li>
               </ul>
             </nav>
-            <!--
             <div class="flex items-center gap-4">
-              <div class="sm:flex sm:gap-4">
-                <nuxt-link
-                    class="inline-block rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring ring-red-400 active:text-opacity-75"
-                    href="/login"
-                >
-                    <span
-                    class="block rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
-                    >
-                    Login
-                    </span>
-                </nuxt-link>
-              </div>
-              <div class="sm:flex sm:gap-4">
-                <nuxt-link href="/register" class="btn bg-red-600 hover:bg-red-700 active:ring focus:ring ring-gray-400 text-white rounded-full">
-                    Sign Up
-                </nuxt-link>
-              </div>
               <div class="block md:hidden">
                 <button
                   class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
@@ -61,6 +43,26 @@
                     />
                   </svg>
                 </button>
+              </div>
+            </div>
+            <!--
+            <div class="flex items-center gap-4">
+              <div class="sm:flex sm:gap-4">
+                <nuxt-link
+                    class="inline-block rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring ring-red-400 active:text-opacity-75"
+                    href="/login"
+                >
+                    <span
+                    class="block rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
+                    >
+                    Login
+                    </span>
+                </nuxt-link>
+              </div>
+              <div class="sm:flex sm:gap-4">
+                <nuxt-link href="/register" class="btn bg-red-600 hover:bg-red-700 active:ring focus:ring ring-gray-400 text-white rounded-full">
+                    Sign Up
+                </nuxt-link>
               </div>
             </div>
             -->
