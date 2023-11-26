@@ -23,6 +23,7 @@
                 </li>
               </ul>
             </nav>
+            <!--
             <div class="flex items-center gap-4">
               <div class="sm:flex sm:gap-4">
                 <nuxt-link
@@ -62,6 +63,7 @@
                 </button>
               </div>
             </div>
+            -->
           </div>
         </div>
       </div>

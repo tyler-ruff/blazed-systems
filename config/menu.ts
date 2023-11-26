@@ -6,6 +6,10 @@ const navMenu = {
         {
             label: "Home",
             href: "/"
+        },
+        {
+            label: "About",
+            href: "/about"
         }
     ],
 } as Menu;
