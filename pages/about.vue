@@ -20,7 +20,6 @@
             <img
               alt="Blazed Systems Promo #2"
               src="/images/blazed-systems-promo-2.png"
-              class="absolute inset-0 h-full w-full object-cover"
             />
           </div>
     
@@ -35,6 +34,28 @@
                 We build cloud solutions, on-prem hardware, and provide support services.
                 These services and products are available to customers and companies of all sizes.
               </p>
+              
+              <h3 class="text-lg font-bold">
+                Explore Our Product Philosophy
+              </h3>
+              
+              <ul class="list-disc pl-5 ml-2">
+                <li>
+                    <b>Performance that Propels:</b>
+                    Unleash the full potential of your operations with hardware designed to handle the most demanding workloads.
+                    The performance you need, when you need it.
+                </li>
+                <li>
+                    <b>Security Beyond Borders:</b>
+                    Fortify your digital fortress with our advanced security features. 
+                    Your data is precious, and we take its protection seriously.
+                </li>
+                <li>
+                    <b>Customization for Every Business:</b>
+                    Recognizing the uniqueness of every business, our products are customizable to cater to your specific needs. 
+                    Tailor your hardware to fit your growth trajectory.
+                </li>
+              </ul>
             </article>
           </div>
         </div>
