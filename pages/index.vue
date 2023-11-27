@@ -14,10 +14,10 @@
                 Blazed System will help your business succeed, in the cloud and on-prem.
             </p>
 			<div class="flex flex-wrap justify-center">
-				<nuxt-link href="/solutions" class="px-8 py-3 m-2 text-lg font-semibold rounded bg-red-600 hover:bg-red-700 active:ring ring-red-400 text-gray-50">
+				<nuxt-link href="/solutions" class="inline-flex px-8 py-3 m-2 text-lg font-semibold rounded bg-red-600 hover:bg-red-700 active:ring ring-red-400 text-gray-50">
                     Cloud Solutions
                 </nuxt-link>
-				<nuxt-link href="/products" class="px-8 py-3 m-2 text-lg border rounded hover:bg-gray-300 active:ring ring-red-400 text-gray-900 border-gray-300">
+				<nuxt-link href="/products" class="inline-flex px-8 py-3 m-2 text-lg border rounded hover:bg-gray-300 active:ring ring-red-400 text-gray-900 border-gray-300">
                     Browse Products
                 </nuxt-link>
 			</div>
