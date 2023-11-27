@@ -20,7 +20,7 @@
             Introducing our range of Blazed Systems On-Prem Hardware – the backbone of your technological success.
           </p>
 
-          <a href="/about-products">
+          <a class="hover:underline block pt-3" href="/about-products">
             Learn More
           </a>
 

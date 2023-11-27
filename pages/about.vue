@@ -20,6 +20,7 @@
             <img
               alt="Blazed Systems Promo #2"
               src="/images/blazed-systems-promo-2.png"
+              class="rounded-md shadow-md border"
             />
           </div>
     
