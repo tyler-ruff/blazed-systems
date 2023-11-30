@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	useHead({
-		title: "Cloud Solutions"
+		title: "Discover our Solutions"
 	});
 </script>
 <template>
@@ -8,7 +8,7 @@
       <div
         class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
       >
-        <div class="mx-auto max-w-lg text-center">
+        <div class="mx-auto max-w-xl text-center">
           <h1 class="text-3xl font-bold sm:text-4xl">
             Blazed Systems Cloud Solutions
           </h1>
@@ -18,15 +18,25 @@
           </h2>
     
           <p class="mt-4 text-gray-300">
-            Welcome to the future of cloud computing with Blazed Systems Cloud Solutions – where innovation meets efficiency, and your digital ambitions are turned into reality. 
-            Whether you're a startup, an enterprise, or anything in between, our comprehensive suite of cloud services is designed to propel your business forward.
+            Welcome to the future of cloud computing with Blazed Systems Cloud Solutions – where innovation meets efficiency, and your digital dreams are turned into reality. 
           </p>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a
+            target="_blank"
+            href="/pdf/whitepaper.pdf"
+            title="Download the Blazed Systems whitepaper to learn more."
+            class="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Download Whitepaper
+          </a>
         </div>
     
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/solutions/cloud"
           >
           
           <Icon class="h-10 w-10" name="carbon:network-4" color="white" />
@@ -42,7 +52,7 @@
     
           <a
             class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/solutions/security"
           >
 
             <Icon class="h-10 w-10" name="mdi:security-lock-outline" color="white" />
@@ -58,7 +68,7 @@
     
           <a
             class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-            href="/services/digital-campaigns"
+            href="https://blazed.xyz/"
           >
             <Icon class="h-10 w-10" name="icon-park-solid:web-page" color="white" />
     
@@ -88,11 +98,11 @@
     
           <a
             class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/solutions/cdn"
           >
 
             <Icon class="h-10 w-10" name="zondicons:network" color="white" />
-    
+           
             <h2 class="mt-4 text-xl font-bold text-white">
                 Content Delivery Network (CDN)
             </h2>
@@ -105,46 +115,23 @@
     
           <a
             class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-            href="/services/digital-campaigns"
+            href="https://blazed.dev/"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-10 w-10 text-pink-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
-    
+            
+            <Icon class="h-10 w-10" name="fluent:people-community-48-filled" color="white" />
+            
+
             <h2 class="mt-4 text-xl font-bold text-white">
-                Zero Trust Networking
+                Developer Network
             </h2>
     
             <p class="mt-1 text-sm text-gray-300">
-              Make enterprise security a breeze, our Zero Trust network uses CloudFlare to help your
-              enterprise network stay fast and affordable.
+              Learn, collaborate, and socialize in our extensive developer comminity.
+              Discover how Blazed makes communities connected and inclusive.
             </p>
           </a>
         </div>
     
-        <div class="mt-12 text-center">
-          <a
-            href="#"
-            class="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
-          >
-            Download Whitepaper
-          </a>
-        </div>
       </div>
     </section>
   </template>
