@@ -39,13 +39,13 @@
                 <h3
                   class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  Basic Tee
+                  BlazedNet Routers
                 </h3>
     
                 <p class="mt-2">
                   <span class="sr-only"> Regular Price </span>
     
-                  <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                  <span class="tracking-wider text-gray-900"> Routing & Firewalls </span>
                 </p>
               </div>
             </a>
@@ -63,13 +63,13 @@
                 <h3
                   class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  Basic Tee
+                  Blazed Dream Machine
                 </h3>
     
                 <p class="mt-2">
                   <span class="sr-only"> Regular Price </span>
     
-                  <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                  <span class="tracking-wider text-gray-900"> Servers </span>
                 </p>
               </div>
             </a>
@@ -87,13 +87,13 @@
                 <h3
                   class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  Basic Tee
+                  Blazed WorkPro Workstations
                 </h3>
     
                 <p class="mt-2">
                   <span class="sr-only"> Regular Price </span>
     
-                  <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                  <span class="tracking-wider text-gray-900"> Workstations </span>
                 </p>
               </div>
             </a>
@@ -111,13 +111,13 @@
                 <h3
                   class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
                 >
-                  Basic Tee
+                  Other Devices
                 </h3>
     
                 <p class="mt-2">
                   <span class="sr-only"> Regular Price </span>
     
-                  <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                  <span class="tracking-wider text-gray-900"> Other Devices </span>
                 </p>
               </div>
             </a>
