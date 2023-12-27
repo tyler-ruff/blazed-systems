@@ -7,11 +7,10 @@
 	<div class="bg-gray-100 text-gray-800">
 		<div class="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-5xl">
 			<h1 class="text-4xl font-bold leadi sm:text-5xl">
-                Discover a new kind of
-				<span class="text-red-600">cloud</span>.
+                Your Gateway to Seamless Connectivity and <span class="text-red-600">Cutting-Edge Technology!</span>
 			</h1>
 			<p class="px-8 mt-8 mb-8 text-lg">
-                Blazed System will help your business succeed, in the cloud and on-prem.
+                At Blazed Systems, we're not just about products; we're about solutions. 
             </p>
 			<div class="flex flex-wrap justify-center">
 				<nuxt-link href="/solutions" class="inline-flex px-8 py-3 m-2 text-lg font-semibold rounded bg-red-600 hover:bg-red-700 active:ring ring-red-400 text-gray-50">
