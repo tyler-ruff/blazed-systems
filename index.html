@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr" itemscope itemtype="https://schema.org/Article">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta itemprop="name" content="Blazed Parking">
+        <meta name="description" content="Standard Blazed Labs parking page." />
+        <meta itemprop="description" content="We turn dreams into reality.">
+        <meta itemprop="image" content="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash.jpg">
+        <meta name="theme-color" content="#000000">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-TileImage" content="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=144&w=144">
+        <meta name="google" content="notranslate" />
+        <!-- Resource pre-connect -->
+        <link rel="dns-prefetch" href="//unpkg.com/">
+        <link rel="preconnect" href="https://unpkg.com/">
+        <link rel="dns-prefetch" href="//blazed.sirv.com/">
+        <link rel="preconnect" href="https://blazed.sirv.com/">
+        <!-- Authorship -->
+        <link rel="me" href="https://www.facebook.com/blazedlabs" type="text/html"> <!-- Facebook -->
+        <link rel="me" href="https://linkedin.com/company/blazed-labs/" type="text/html"> <!-- Linkedin -->
+        <link rel="me" href="https://github.com/blazed-labs" type="text/html"> <!-- Github -->
+        <link rel="me" href="https://g.page/r/CX6ZGNxiVzAMEAE" type="text/html"> <!-- Google -->
+        <link rel="me" href="mailto:hello@blazed.space">
+        <link rel="author" href="Blazed Labs LLC">
+        <link rel="publisher" href="Blazed Publishing BD">
+        <link rel="manifest" href="/manifest.json">
+        <!-- CSS Includes -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <style>
+            /* Blazed Labs Custom Scrollbar */
+            body::-webkit-scrollbar{width:10px}body::-webkit-scrollbar-track{background:#727a8a}body::-webkit-scrollbar-thumb{background-color:#afb4bd;border-radius:20px;border:1px solid #5b626e}body::-webkit-scrollbar-thumb:hover{background-color:#5b626e}#blz-dev-sign{display:none}
+            /* Custom select */
+            ::selection{
+                background:#fff;
+                background:rgba(255, 255, 255, 0.6);
+                color:#000;
+            }
+            ::-moz-selection{
+                background:#fff;
+                background:rgba(255, 255, 255, 0.6);
+                color:#000;
+            }
+
+            /* Twinkling stars CSS */
+            .star {
+                position: absolute;
+                width: 2px;
+                height: 2px;
+                border-radius: 5px;
+            }
+            @keyframes twinkle {
+                0% {
+                    transform: scale(1, 1);
+                    background: rgba(255, 255, 255, 0);
+                    animation-timing-function: linear;
+                }
+                40% {
+                    transform: scale(0.8, 0.8);
+                    background: rgba(255, 255, 255, 1);
+                    animation-timing-function: ease-out;
+                }
+                80% {
+                    background: rgba(255, 255, 255, 0);
+                    transform: scale(1, 1);
+                }
+                100% {
+                    background: rgba(255, 255, 255, 0);
+                    transform: scale(1, 1);
+                }
+            }
+        </style>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=57&w=57">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=60&w=60">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=72&w=72">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=76&w=76">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=144&w=144">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=120&w=120">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=140&w=140">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=152&w=152">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=180&w=180">
+        <link rel="icon" type="image/png" sizes="192x192"  href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=192&w=192">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=32&w=32">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=96&w=96">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=16&w=16">
+
+    </head>
+    <body class="h-screen overflow-hidden flex items-center justify-center">
+        <section class="homescreen m-0 flex flex-col w-screen justify-center bg-gray-800 h-screen text-gray-100">
+              
+            <nav>
+                <ul class="flex justify-between text-xl py-8 px-8 md:px-48 ">
+                  <li>
+                    <a href="https://blazedlabs.com/">
+                        <img src="https://blazed.sirv.com/logo/Beaker-White.png?h=45&w=45" class="hover:opacity-75" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="hover:underline" href="https://blazed.space/">Space</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <h1 class="text-6xl  my-auto mx-auto  md:mx-48 ">
+                Welcome, <br />
+                <span class="text-gray-400 text-5xl ml-10">Let's blast off.</span>
+              </h1>
+
+        </section>
+        <section id="blz-js">
+            <!-- JQuery v.2.2.4 -->
+            <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
+
+            <!-- Stars Background
+            @ Source: https://tailwindcomponents.com/component/landing-page-with-twinkling-stars
+            Landing Page With Twinkling Stars by Icesofty [https://github.com/Icesofty]
+            -->
+            <script>
+                for (var i = 0; i < 100; i++) {
+                    var star =
+                    '<div class="star m-0" style="animation: twinkle ' +
+                    (Math.random() * 5 + 5) +
+                    's linear ' +
+                    (Math.random() * 1 + 1) +
+                    's infinite; top: ' +
+                    Math.random() * $(window).height() +
+                    'px; left: ' +
+                    Math.random() * $(window).width() +
+                    'px;"></div>';
+                    $('.homescreen').append(star);
+                }
+            </script>
+
+            <div id="blz-nojs">
+                <noscript>
+                    <h1>Error!</h1>
+                    <p>Please enable Javascript, for the best browsing experience.</p>
+                </noscript>
+            </div>
+
+        </section>
+    </body>
+</html>
